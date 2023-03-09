@@ -1,5 +1,7 @@
 # IST256  
-# W#1 
+# W#1 and W#2
+
+# to quit the programme
 quit()
 q()
 
@@ -172,6 +174,7 @@ rep(1:3,each = c(5,4))
 # [1] 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3
 # Warning message:
 #  In rep(1:3, each = c(5, 4)) : first element used of 'each' argument
+rep(1:3, c(5, 4, 2))
 
 rep(1:3,each = 5)
 # [1] 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3
@@ -207,6 +210,45 @@ Inf-Inf
 # [1] NaN
 Inf/0
 # [1] Inf
+# Built-in Functions- Predefined functions- Önceden tanımlanmış fonksiyonlar
+round(pi)
+# [1] 3
+pi
+# [1] 3.141593
+round(pi,2)
+# [1] 3.14
+
+#  3.2*10^(-2)
+3.2e-2
+# [1] 0.032
+
+
+# abs()   absolute value
+# sqrt()  square root of a value
+# cos()  
+# sin()  
+# tan()  
+# atan()  
+# acos()  
+# asin()  
+
+# exp()  
+# log()  natural log.  
+# log10()  log at base 10  
+# log2()  log at base 2  
+# round(x, digits=0)   rounding   
+# floor()  floor function
+# ceiling()   ceiling function
+
+floor(3.4)
+# [1] 3
+ceiling(3.4)
+# [1] 4
+floor(3.6)
+#[1] 3
+ceiling(3.6)
+# [1] 4
+
 
 # Types of parantehesis:
 # ()  for functions
@@ -214,8 +256,3 @@ Inf/0
 # {}  for loops
 
 ################################################################
-
-
-
-
- 
